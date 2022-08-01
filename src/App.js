@@ -45,7 +45,7 @@ const handleSidebar=()=>{
             <div class="underline"></div>
           </div>
           <p className="about-desc">
-           Hi I am Basit Bamidele, a full-stack developer based in Lagos, Nigeria 
+           Hi, I am Basit Bamidele, a full-stack developer based in Lagos, Nigeria 
           </p>
           <p className="about-desc">
             Below is the current snapshot of the ever-growing list of tools 
@@ -54,15 +54,15 @@ const handleSidebar=()=>{
           <div className='about_skill_container'>
           <div className='about-skill'>
           <FontAwesomeIcon className='about-icon' icon={faAngleDoubleRight} />
-          <p>JavaScript</p>
+          <p className='about-paragraph'>JavaScript</p>
           </div>
           <div className='about-skill'>
           <FontAwesomeIcon className='about-icon' icon={faAngleDoubleRight} />
-          <p>React</p>
+          <p className='about-paragraph'>React</p>
           </div>
           <div className='about-skill'>
           <FontAwesomeIcon className='about-icon' icon={faAngleDoubleRight} />
-          <p>Node.js</p>
+          <p className='about-paragraph'>Node.js</p>
           </div>
           </div>
           

@@ -356,6 +356,7 @@ p {
 
    /* background: linear-gradient(to bottom,#fff,#d5fefd),url("./image/background.jpg")*/
    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../public/image/background.jpg);
+   background:linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1)), url(../public/image/background.jpg);
    background-size: cover;
    background-position: center;
    background-attachment: fixed;
@@ -526,8 +527,6 @@ rgba(255,255,255,0.6)), url('../public/image/service-3.jpg');
 background-position: center;
 background-size: cover;
 background-attachment: fixed;*/
-background-color: #222;
-
   }
 
   .hero-img {
@@ -552,7 +551,7 @@ background-color: #222;
   }
 
   .about-desc {
-    color:hsl(209, 34%, 30%);
+    color:;
     font-family: 'open-sans';
 
   }
@@ -565,11 +564,16 @@ background-color: #222;
   }
 
   .title-about{
-
+color:;
     text-align: left;
   }
 
+  .about-paragraph{
+    color:;
+  }
+
   .about-title .underline {
+    color: aqua;
     margin-left: 0;
   }
 
@@ -643,9 +647,10 @@ Services
 */
 /* bg-grey in globals */
 .services{
-background: linear-gradient(rgba(0,255,255,0.25),rgba(0,255,255,0.2)),url('../public/image/service-1.jpg');
+/*background: linear-gradient(rgba(0,255,255,0.25),rgba(0,255,255,0.2)),url('../public/image/service-1.jpg');
 background-size: cover;
-background-position: center;
+background-position: center;*/
+background-color:#d5fefd;
 margin-top: -1.2rem;
 
 }
@@ -724,13 +729,13 @@ Experience
 
   padding-top: 5rem;
   padding-bottom: 5rem;
-background: linear-gradient(to bottom, rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../public/image/service-3.jpg');
+/*background: linear-gradient(to bottom, rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../public/image/service-3.jpg');
 background-position: center;
-background-size: cover;
+background-size: cover;*/
 }
 
 .experience-title {
-  color: aqua;
+  color:
 }
 
 
@@ -746,7 +751,7 @@ background-size: cover;
   justify-content: center;
   margin-bottom: 4rem;
   flex-wrap: wrap;
-  box-shadow: 0px 0px 2px 2px aqua;
+  box-shadow: 0px 0px 2px 2px ;
 
 }
 .job-btn {
@@ -759,7 +764,7 @@ background-size: cover;
   transition: all 0.3s linear;
   cursor: pointer;
   padding: 0.25rem 0;
-  color:  aqua;
+  color: ;
   line-height: 1;
   outline-color:hsl(210, 36%, 96%);
 
@@ -769,9 +774,9 @@ background-size: cover;
   box-shadow: 0 2px  hsl(210, 22%, 49%);
 }
 .active-btn {
-  color: #54bab9;
+  color:aqua;
   background-color: black;
-  border:2px solid aqua;
+  border:2px solid ;
   box-shadow: 0 2px  hsl(210, 22%, 49%);
 }
 
@@ -781,7 +786,6 @@ background-size: cover;
 
 .job-info h3 {
   font-weight: 600;
-  color: aqua;
 }
 .job-info h4 {
   text-transform: uppercase;
@@ -794,7 +798,7 @@ background-size: cover;
 }
 .job-date {
   letter-spacing: 0.1rem;
-  color: aqua;
+  color: ;
 }
 .job-desc {
   display: grid;
@@ -806,11 +810,11 @@ background-size: cover;
 .job-desc p {
   margin-bottom: 0;
   letter-spacing: 0.1rem;
-  color:aqua;
+  color:;
 }
 
 .job-icon {
-  color: aqua;
+  color:aqua;
 }
 
 @media screen and (min-width: 992px) {
@@ -844,11 +848,11 @@ CONTACT section
 **************/
 
 .contact {
-  background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('../public/image/contact.jpg');
+ /* background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('../public/image/contact.jpg');
 background-size: cover;
 color: aqua;
 background-position: center;
-background-attachment: fixed;
+background-attachment: fixed;*/
 }
 
 
@@ -978,10 +982,10 @@ padding: 5rem 0;
 /*****************/
 .projects {
 
-background-image: linear-gradient(to bottom, #fffcff,#d5fefd);
+/*background-image: linear-gradient(to bottom, #fffcff,#d5fefd);
 background: linear-gradient(rgba(200,200,200,0.8),rgba(200,200,200,0.8)),url('../public/image/new-3.jpg');
 background-position: center;  
-background-size: cover;
+background-size: cover;*/
 }
 .project{
    display: grid;
@@ -1115,6 +1119,69 @@ background-size: cover;
     text-align: left;
   }
 }
+
+/***********
+CONTACT section
+**************/
+
+.contact {
+  /* background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('../public/image/contact.jpg');
+ background-size: cover;
+ color: aqua;
+ background-position: center;
+ background-attachment: fixed;*/
+ background-color:#d5fefd;
+ 
+ }
+ 
+ 
+ .contact-icon-container{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   
+ }
+ 
+ @media screen and (min-width:900px) {
+  .contact-icon-container{
+ 
+ flex-direction: row;
+ 
+ }
+ }
+ 
+ 
+ 
+ .contact-paragraph {
+ 
+   font-size: 1rem;
+   text-align: center;
+   letter-spacing: 0.2rem;
+   color:#06283d; 
+ }
+ 
+ .contact-container {
+   margin: 2rem;
+ }
+ 
+ .contact-icon {
+   font-size: 1.8rem;
+   padding: 1rem;
+ color: #06283d;
+  
+ }
+ @media screen and (min-width:900px){
+   .contact-icon{
+ 
+     margin-right:0.5rem;
+ 
+   }
+ }
+ 
+ .contact-number{
+   font-size: 1rem;
+ }
 
 
 /***FOOTER***/
