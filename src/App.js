@@ -166,7 +166,7 @@ const handleSidebar=()=>{
             <div className="skill-container">
               <div className="skill-value"></div>
               <p className="skill-text">
-                50%
+                80%
               </p>
             </div>
           </div>
@@ -187,7 +187,7 @@ const handleSidebar=()=>{
             <div className="skill-container">
               <div className="skill-value"></div>
               <p className="skill-text">
-                50%
+                80%
               </p>
             </div>
           </div>
