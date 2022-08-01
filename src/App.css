@@ -770,8 +770,8 @@ background-size: cover;*/
 
 }
 .job-btn:hover {
-  color:  hsl(210, 22%, 49%);
-  box-shadow: 0 2px  hsl(210, 22%, 49%);
+  color:  aqua;
+  box-shadow: aqua;
 }
 .active-btn {
   color:aqua;
