@@ -22,13 +22,18 @@ const handleSidebar=()=>{
   setShowside(!showSide);
 }
 
+const removeSidebar=()=>{
+  setShowside(false);
+
+}
+
 
 
 
   return (
     <div className="general">
       
-      <NavBar handleSidebar={handleSidebar} showSide={showSide}/>
+      <NavBar handleSidebar={handleSidebar} removeSidebar={removeSidebar} showSide={showSide}/>
       <Hero/>
       <section class="section about" id="about">
       <div class="section-center about-center">

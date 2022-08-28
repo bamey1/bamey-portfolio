@@ -3,18 +3,19 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faBars,faB,faClose} from '@fortawesome/free-solid-svg-icons';
 
 
-const NavBar=({handleSidebar,showSide})=>{
+const NavBar=({handleSidebar,showSide,removeSidebar})=>{
     const handleClick= (e)=>{
         e.preventDefault();
         const target =e.target.getAttribute('href');
         const location =document.querySelector(target).offsetTop;
         
-        console.log(location);
         
         window.scrollTo({
           left:0,
           top:location-96
         })
+
+       
         } 
 
     return (
@@ -39,16 +40,16 @@ const NavBar=({handleSidebar,showSide})=>{
 </div>
 <div className={`${showSide?'links-container show-container':'links-container'}`}>
           <ul className="sidebar-links">
-          <li>
+          <li onClick={removeSidebar}>
             <a href="#about">About</a>
           </li>
-          <li>
+          <li onClick={removeSidebar}>
             <a href="#experience">Experience</a>
           </li>
-          <li>
+          <li onClick={removeSidebar}>
             <a href="#project">Projects</a>
           </li>
-          <li>
+          <li onClick={removeSidebar}>
             <a href="#contact">Contact</a>
           </li>
         </ul>
