@@ -224,7 +224,7 @@ const removeSidebar=()=>{
   
           </div>
           <div className="project-links">
-            <a href="">
+            <a href="https://bameyportfolio.netlify.app/" target='_blank' rel='noopener noreferrer'>
               <FontAwesomeIcon icon={faShareSquare} className="project-icon" />
             </a>
             <a href="">
@@ -253,7 +253,7 @@ const removeSidebar=()=>{
 
         </div>
         <div className="project-links">
-          <a href="">
+          <a href="https://bameyquiz.netlify.app/" target='_blank' rel='noopener noreferrer'>
             <FontAwesomeIcon icon={faShareSquare} className="project-icon" />
           </a>
           <a href="">
@@ -283,8 +283,8 @@ const removeSidebar=()=>{
 
         </div>
         <div className="project-links">
-          <a href="">
-            <FontAwesomeIcon icon={faShareSquare} className="project-icon" />
+          <a href="https://bameycomfy.netlify.app/" target='_blank' rel='noopener noreferrer'> 
+            <FontAwesomeIcon icon={faShareSquare} className="project-icon"/>
           </a>
           <a href="">
             <FontAwesomeIcon icon={faGithubSquare} className="project-icon"/>
