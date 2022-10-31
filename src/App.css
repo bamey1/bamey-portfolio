@@ -42,7 +42,7 @@ html{
 
   body {
     font-family:  'Open Sans', sans-serif;
-    background: #e0e0e0;
+    background: #fff;
     color:var(--clr-text-1);
     line-height: 1.5;
     font-size: 0.875rem;
@@ -682,7 +682,7 @@ margin-top: -1.2rem;
   text-align: center;
 }
 .service {
-background-image: linear-gradient(to bottom,#d5fefd, #e0e0e0);
+background-image: linear-gradient(to bottom,#d5fefd, #fff);
   padding: 3rem 1.5rem;
   margin-bottom: 2rem;
   border-radius: 0.5rem;
@@ -709,8 +709,7 @@ background-image: linear-gradient(to bottom,#d5fefd, #e0e0e0);
 .service:hover {
   background:aqua;
 }
-.service:hover p {
-}
+
 .service:hover .underline {
   background: #fff;
 }
@@ -1213,9 +1212,6 @@ CONTACT section
 
 .footer_date{
   color:aqua;
-}
-
-.footer_text span {
 }
 
 

@@ -207,13 +207,74 @@ const removeSidebar=()=>{
       <div className='underline'></div>
       </div>
       <div className='section-center projects-center'>
+      <article  className='project'>
+        
+        <img src="./image/projects-3.jpg" className="project-img" alt="bamey" />
+  
+        
+        <div className='project-info'>
+          <span className='project-number'>01</span>
+          <h3 className='project-slug'>E-COMMERCE PROJECT (REACT PROJECT)</h3>
+        <p className='project-desc'>
+        Built interactive web application using React.
+           react usestatehook,Redux-toolkit,react forms, context API and React Router were used to develop this e-commerce website.
+           Auth0 library was used for authentication and authorization.Stripe API was used for the payment gateway.
+           Other external packages like,axios,react icons, react-confetti were also used in this project.
+    </p>
+          <div className='project-stack'>
+            <span>React</span>
+            <span>Sass</span>
+  
+          </div>
+          <div className="project-links">
+            <a href="https://bameycomfy.netlify.app/" target='_blank' rel='noopener noreferrer'> 
+              <FontAwesomeIcon icon={faShareSquare} className="project-icon"/>
+            </a>
+            <a href="">
+              <FontAwesomeIcon icon={faGithubSquare} className="project-icon"/>
+            </a>
+          </div>
+        </div>
+        
+         
+        </article>
+
+        <article  className='project'>
+        
+        <img src="./image/projects-2.jpg" className="project-img" alt="bamey" />
+      
+      <div className='project-info'>
+        <span className='project-number'>02</span>
+        <h3 className='project-slug'>QUIZ PROJECT (VANILLA JAVASCRIPT)</h3>
+      <p className='project-desc'>
+        Built interactive web applications using vanilla javascript.
+        no javascript frameworks/library was employed in these projects.
+        </p>
+        <div className='project-stack'>
+          <span>Vanilla js</span>
+          <span>Bootstrap</span>
+
+        </div>
+        <div className="project-links">
+          <a href="https://bameyquiz.netlify.app/" target='_blank' rel='noopener noreferrer'>
+            <FontAwesomeIcon icon={faShareSquare} className="project-icon" />
+          </a>
+          <a href="">
+            <FontAwesomeIcon icon={faGithubSquare} className="project-icon"/>
+          </a>
+        </div>
+      </div>
+      
+       
+      </article>
+      
       <article className='project'>
         <img src="./image/projects-1.jpg" className="project-img" alt="bamey" />
   
         
         <div className='project-info'>
-          <span className='project-number'>01</span>
-          <h3 className='project-slug'>DESIGN PROJECT</h3>
+          <span className='project-number'>03</span>
+          <h3 className='project-slug'>PORTFOLIO PROJECT (HTML & CSS)</h3>
         <p className='project-desc'>
         Html and css were used to design beautiful, responsive and modern looking websites.
         Modern technologies like c.s.s grid and flex-box was used for general layout and placement.Sass framework was used for compiling the css code.
@@ -236,64 +297,7 @@ const removeSidebar=()=>{
          
         </article>
         
-      <article  className='project'>
-        
-        <img src="./image/projects-2.jpg" className="project-img" alt="bamey" />
       
-      <div className='project-info'>
-        <span className='project-number'>02</span>
-        <h3 className='project-slug'>JAVASCRIPT PROJECT</h3>
-      <p className='project-desc'>
-        Built interactive web applications using vanilla javascript.
-        no javascript frameworks/library was employed in these projects.
-        </p>
-        <div className='project-stack'>
-          <span>Vanilla js</span>
-          <span>Bootstrap</span>
-
-        </div>
-        <div className="project-links">
-          <a href="https://bameyquiz.netlify.app/" target='_blank' rel='noopener noreferrer'>
-            <FontAwesomeIcon icon={faShareSquare} className="project-icon" />
-          </a>
-          <a href="">
-            <FontAwesomeIcon icon={faGithubSquare} className="project-icon"/>
-          </a>
-        </div>
-      </div>
-      
-       
-      </article>
-      <article  className='project'>
-        
-      <img src="./image/projects-3.jpg" className="project-img" alt="bamey" />
-
-      
-      <div className='project-info'>
-        <span className='project-number'>03</span>
-        <h3 className='project-slug'>REACT PROJECT</h3>
-      <p className='project-desc'>
-      Built interactive web application using the react frame work.
-         In these projects,I made use of react usestatehooks,Redux,react forms, context API and React Router.
-         Alot of packages like,react icons, react-confetti were used.
-        </p>
-        <div className='project-stack'>
-          <span>React</span>
-          <span>Sass</span>
-
-        </div>
-        <div className="project-links">
-          <a href="https://bameycomfy.netlify.app/" target='_blank' rel='noopener noreferrer'> 
-            <FontAwesomeIcon icon={faShareSquare} className="project-icon"/>
-          </a>
-          <a href="">
-            <FontAwesomeIcon icon={faGithubSquare} className="project-icon"/>
-          </a>
-        </div>
-      </div>
-      
-       
-      </article>
     
       </div>
       </section>
